@@ -32,13 +32,13 @@ body{
 .podnaslov-mali{
     font-size: 14pt;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-weight: 200;
 }
 .podnaslov1{
     font-size: 40pt;
     color: white;
-    padding-top: 50px;
+    padding-top: 5rem;
     margin-bottom: 50px;
     font-weight: 300;
 }
@@ -50,6 +50,9 @@ body{
     margin-top: 0px;
     font-weight: 300;
 }
+.galerijaslika{
+    margin-bottom: 3rem;
+}
 .galerijaslika img{
     height: 300px;
 }
@@ -57,6 +60,7 @@ body{
     border-radius: 0px !important;
     border: 2px solid white !important;
     margin-top: 10px;
+    font-size: 22pt !important;
 }
 .btn:hover{
     border: 2px solid darkblue !important;
@@ -118,14 +122,6 @@ body{
     margin-top: 20px;
     background: rgb(0, 0, 0, 0.5);
 }
-.onama{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.okvir-1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 .okvir-mali{
     border: 4px solid white;
     height: 60px;
@@ -135,16 +131,29 @@ body{
     transform: translateY(-60px);
     background: rgb(0, 0, 0, 0.5);
 }
-.ifrejm{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.onama{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
-.ifrejm iframe{
+.okvir-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pozicija-iframe iframe{
+    background-size: cover;
+}
+.mapa{
+    padding-top: 20px;
+}
+.mapa iframe{
     width: 100%;
-    height: 380px;
+    height: 355px;
+    border: 0;
+    margin-bottom: 10px;
 }
-.istrazi .container-fluid{
-    margin-bottom: 30px;
+
+.istrazi .container{
+    margin-bottom: 5rem;
 }
 .kontakt img{
     filter: brightness(50%);
@@ -159,12 +168,15 @@ body{
     opacity: 0;
     font-size: 10pt;
     font-weight: 200;
-    transform: translateY(-20px);
+    transform: translateY(-30px);
     transition: 0.5s ease-in-out;
 }
 .kontakt .col-sm-3:hover .mali-tekst{
     opacity: 1;
-    transform: translateY(20px);
+    transform: translateY(5px);
+}
+.yradius{
+    border-radius: 10px;
 }
 
 
@@ -208,9 +220,6 @@ body{
     .jumbotron-header{
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/heroimage-mob.jpg");
         background-size: cover;
-    }
-    .telefon-ikonice{
-        display: inline !important;
     }
   }
   
