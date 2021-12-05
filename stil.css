@@ -56,6 +56,7 @@ body{
 }
 .galerijaslika img{
     height: 300px;
+    width: 100%;
 }
 .btn{
     border-radius: 0px !important;
@@ -68,10 +69,7 @@ body{
     color: darkblue !important;
     background: white !important;
 }
-.gallery-item{
-    max-width: 100%;
-    height: 150px;
-}
+
 .klik{
     color: white;
     text-decoration: none;
