@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -60,7 +61,7 @@ body{
     border-radius: 0px !important;
     border: 2px solid white !important;
     margin-top: 10px;
-    font-size: 22pt !important;
+    font-size: 20pt !important;
 }
 .btn:hover{
     border: 2px solid darkblue !important;
@@ -158,10 +159,11 @@ body{
 .kontakt img{
     filter: brightness(50%);
     transition: 0.5s ease-in-out;
+    width: 80px;
 }
 .kontakt img:hover{
     filter: brightness(100%);
-    transform: translateY(-20px);
+    transform: translateY(-20px) scale(1.2);
 }
 .mali-tekst{
     color: white;
@@ -176,9 +178,8 @@ body{
     transform: translateY(5px);
 }
 .yradius{
-    border-radius: 10px;
+    border-radius: 20px;
 }
-
 
 @media only screen and (max-width: 500px) {
     .naslov {
@@ -222,4 +223,3 @@ body{
         background-size: cover;
     }
   }
-  
